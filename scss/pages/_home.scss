@@ -1,0 +1,367 @@
+@import url(../base/_typography.scss);
+
+body {
+  font-family: "Fraunces", serif;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.header {}
+
+.container-head {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 600px;
+  background-image: url(../../images/home/desktop/image-hero-coffeepress.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 117px 85px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
+
+  h1 {
+    font-family: "Fraunces 9pt" sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #fefcf7;
+    width: 525px;
+  }
+
+  p {
+    color: #fefcf7;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 80%;
+    width: 445px;
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+}
+
+#active {
+  color: #333d4b;
+}
+
+.sitenav-list {
+  display: flex;
+  gap: 33px;
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sitenav-links {
+  text-decoration: none;
+  color: #83888f;
+  transition: 0.3s;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.92px;
+
+  &:active {
+    color: #333d4b;
+  }
+}
+
+ol,
+li {
+  list-style: none;
+}
+
+// Section 1
+
+.sec1 {
+  padding: 40px 40px;
+}
+
+.btn {
+  width: 217px;
+  height: 56px;
+  background-color: #0e8784;
+
+  font-family: "Fraunces 9pt", serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding-top: 15px;
+  transition: 0.3s;
+
+  &:active {
+    background-color: #66d2cf;
+  }
+}
+
+// Section2
+
+.sec2 {
+  display: flex;
+}
+
+.container-sec2 {
+  display: flex;
+  width: 1111px;
+  height: 525px;
+  padding: 136px 84px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+  background-image: url(../../images/home/desktop/sec2-bg-img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec2-img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h2 {
+    font-family: "Fraunces 9pt" serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #333d4b;
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #333d4b;
+  }
+}
+
+// Section 3
+
+.sec3 {
+  display: flex;
+}
+
+.sec3-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    font-family: "Fraunces 9pt", serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    color: #fefcf7;
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+    opacity: 80%;
+    margin-bottom: 86px;
+  }
+}
+
+.sec3-container {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 577px;
+  background-color: #2c343e;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 100px;
+  margin-bottom: 151px;
+}
+
+.sec3-boxs {
+  display: flex;
+  gap: 30px;
+}
+
+.sec3-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px 0;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  width: 350px;
+  height: 382px;
+  background-color: #0e8784;
+  color: #fefcf7;
+  margin-top: 86px;
+  border-radius: 8px;
+
+  h3 {
+    font-family: "Fraunces 9pt", serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  span {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+
+.box-txt {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 134px;
+}
+
+// Section 4
+
+.sec4 {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #83888f;
+    margin-left: 40px;
+  }
+}
+
+.sec4-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.left-container {
+  display: flex;
+  gap: 95px;
+  justify-content: space-around;
+}
+
+.sec4-left {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-family: "Fraunces 9pt", serif;
+    color: #fdd6ba;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+  }
+
+  h3 {
+    color: #333d4b;
+    font-family: "Fraunces 9pt", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    width: 255px;
+    text-align: left;
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333d4b;
+  }
+}
+
+.text-end {
+  width: 285px;
+  height: 355px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+// Footer
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.footer-container {
+  background-color: #2c343e;
+  width: 1280px;
+  height: 120px;
+  margin-left: 150px;
+  margin-right: auto;
+  max-width: 1280px;
+  margin-bottom: 88px;
+  display: flex;
+  align-items: center;
+  padding: 47px 85px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 24px;
+}
+
+#active-footer {
+  color: #fefcf7;
+}
